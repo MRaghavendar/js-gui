@@ -1,6 +1,6 @@
 function calculation(){
-    var firstNumber = number(document.getElementById("one").Value);
-    var secondNumber = number(document.getElementById("two").Value);
-    var  largerNumber = result;
-    document.getElementById("result").innerHTML = Math.max(one, two);
+    var firstNumber =  Number(document.getElementById("one").value);
+    var secondNumber = Number(document.getElementById("two").value);
+  
+   document.getElementById("result").innerHTML = Math.max(firstNumber, secondNumber );
 }
